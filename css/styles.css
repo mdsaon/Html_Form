@@ -1,0 +1,281 @@
+*
+{
+
+ margin: 0px auto;
+ padding: 0px auto;
+
+}
+h1
+{
+	font: bold 20px Tahoma:
+}
+h2
+{
+	font: bold 20px Tahoma:
+}
+header,section,article,aside,footer,hgroup,nav{
+	display:block;
+}
+body
+{
+	text-align:center;
+	background-color: #454E57;
+	
+}
+#main_wrapper
+{
+	
+	width:1000px;
+	margin:20px auto;
+	text-align:left;
+	
+}
+#top_line_border
+{
+	border:2px solid #386279;
+}
+
+#top_header
+{
+	width: 1000px;
+	
+}
+#top_header h1
+{
+	text-align: center;
+	font-family: verdana;
+	color: #F7FCFE;
+
+}
+#top_header p
+{
+	text-align: center;
+	font-family: verdana;
+	margin-top: -15px;
+	color: #C7CCD0;
+}
+#main_section
+{
+	float:left;
+	width:1000px;
+}
+#main_text h1
+{
+	color: #C7CCD0;
+}
+#main_text p
+{
+	color: #949BA3;
+}
+.inputText
+{
+
+	background-color: transparent;
+    color: #eeeeee;
+    outline: none;
+    outline-style: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid #6D747E 1px;
+    padding: 20px 10px;
+}
+#fullName,#email
+{
+	width: 745px;
+}
+#phone
+{
+	width: 235px;
+	margin-left: 15px;
+}
+#address
+{
+	width: 1000px;
+}
+#city
+{
+	width: 235px;
+}
+#state
+{
+	width: 235px;
+	margin-left: 15px;
+}
+#countryRegion
+{
+	width: 235px;
+	margin-left: 15px;
+}
+#zipPostalcode
+{
+	width: 235px;
+	margin-left: 15px;
+}
+#howDidYouHereAboutUs
+{
+	width: 1000px;
+}
+#portfolio
+{
+	width: 1000px;
+}
+
+/*Start of Radio Button*/
+#placeforRadioButton
+{
+	width: 1000px;
+	height: auto;
+	
+
+}
+
+#inputRadioItems
+{
+	background-color: transparent;
+    color: #eeeeee;
+    outline: none;
+    outline-style: none;
+    border:solid #6D747E 1px;
+    display: inline-block;
+    width: 240px;
+    margin-left: 5px;
+    text-align: center;
+    cursor: pointer;
+
+ }
+ 
+#inputRadioItems input[type ="radio"]
+{
+	visibility: hidden;
+
+}
+#inputRadioItems input[type ="radio"]:checked + label
+{
+	background-color: #00B2F0;
+    
+
+}
+
+
+/*end of Radio Button*/
+/*Start of CheckBox*/
+#section_checkbox
+{
+	float: left;
+	width: 1000px;
+	height: 400px;
+	margin-top: 20px;
+    color: #C7CCD0;
+    padding: 5px;
+}
+#left_checkbox
+{
+	float: left;
+	width: 450;
+	
+}
+#right_checkbox
+{
+  float: right;
+  width: 500px;
+  height: auto;
+ 
+}
+/* The container */
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 15px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 15px;
+    width: 15px;
+    background-color: transparent;
+    border:solid #6D747E 1px;
+
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+    background-color: transparent;
+   
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+    background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+    left: 5px;
+    top: 1px;
+    width: 4px;
+    height: 8px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+/*End of Check Box*/
+
+#inputTextarea
+{
+	width: 1000px;
+}
+.inputTextArea
+{
+	background-color: transparent;
+    color: #eeeeee;
+    outline: none;
+    outline-style: none;
+    border:solid #6D747E 1px;
+    padding: 20px 10px;
+
+}
+#textareaButton
+{
+	background: #00B2F0;
+	border: none;
+    color: white;
+    padding: 8px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+}
