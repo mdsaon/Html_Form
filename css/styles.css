@@ -153,7 +153,7 @@ body
 #inputRadioItems input[type ="radio"]:checked + label
 {
 	background-color: #00B2F0;
-    
+	
 
 }
 
@@ -278,4 +278,8 @@ body
     display: inline-block;
     font-size: 16px;
 
+}
+/*Form Validation*/
+input:invalid{
+    border-color:red;
 }

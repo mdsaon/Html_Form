@@ -21,23 +21,23 @@
 					</br>
 					<hr id = "top_line_border">
 					</br>
-						<input type ="text" name ="fullName" id ="fullName" placeholder="Full Name*" class="inputText"  />
-						<input type ="text" name ="phone" id ="phone" placeholder="Phone*" class="inputText"/>
+						<input type ="text" name ="fullName" id ="fullName" placeholder="Full Name*" class="inputText" required minlength="6" maxlength="10" />
+						<input type ="text" name ="phone" id ="phone" placeholder="Phone*" class="inputText" required minlength="6" maxlength="10"/>
 						</br>
-						<input type ="text" name ="email" id ="email" placeholder="Email*" class="inputText"/>
+						<input type ="text" name ="email" id ="email" placeholder="Email*" class="inputText" required minlength="6" maxlength="10"/>
 						</br>
-						<input type ="text" name ="email" id ="email" placeholder="Re-enter email*" class="inputText"/>
+						<input type ="text" name ="email" id ="email" placeholder="Re-enter email*" class="inputText" required minlength="6" maxlength="10"/>
 						</br>
-						<input type ="text" name ="address" id ="address" placeholder="Address*" class="inputText"/>
+						<input type ="text" name ="address" id ="address" placeholder="Address*" class="inputText" required minlength="6" maxlength="10"/>
 						</br>
-						<input type ="text" name ="address" id ="address" placeholder="" class="inputText"/>
+						<input type ="text" name ="address" id ="address" placeholder="" class="inputText" required minlength="6" maxlength="10"/>
 						</br>
-						<input type ="text" name ="city" id ="city" placeholder="City*" class="inputText"/>
-						<input type ="text" name ="state" id ="state" placeholder="State*" class="inputText"/>
-						<input type ="text" name ="countryRegion" id ="countryRegion" placeholder="Country/Region*" class="inputText"/>
-						<input type ="text" name ="zipPpostalcode" id ="zipPostalcode" placeholder="Zip/Postal code*" class="inputText"/>
+						<input type ="text" name ="city" id ="city" placeholder="City*" class="inputText" required minlength="6" maxlength="10"/>
+						<input type ="text" name ="state" id ="state" placeholder="State*" class="inputText" required minlength="6" maxlength="10"/>
+						<input type ="text" name ="countryRegion" id ="countryRegion" placeholder="Country/Region*" class="inputText" required minlength="6" maxlength="10"/>
+						<input type ="text" name ="zipPpostalcode" id ="zipPostalcode" placeholder="Zip/Postal code*" class="inputText" required minlength="6" maxlength="10"/>
 						</br>
-						<input type ="text" name ="howDidYouHereAboutUs" id ="howDidYouHereAboutUs" placeholder="How did you hear about us*" class="inputText"/>
+						<input type ="text" name ="howDidYouHereAboutUs" id ="howDidYouHereAboutUs" placeholder="How did you hear about us*" class="inputText" required minlength="6" maxlength="10"/>
 					
 				</article>
 				</br></br></br>
@@ -50,19 +50,19 @@
 						<p>Which is your primary design discpline?'</p>
 						</br>
 					    <hgroup id ="inputRadioItems" style="padding: 0;">
-	 						 <input type="radio" name="radioItem" value="1" id="inputRadio1" style="width: 0; height: 0;" checked="checked;"> 
+	 						 <input type="radio" name="radioItem" value="1" id="inputRadio1" style="width: 0; height: 0;" checked="checked;" required> 
 	 						 <label for="inputRadio1" style="display: inline-block;width: 85%;padding: 20px;">Design Research</label>
 	 					</hgroup>
 	 					<hgroup id ="inputRadioItems" style="padding:  0;">
-	 						 <input type="radio" name="radioItem" value="visual design" id="inputRadio2" style="width: 0; height: 0;"> 
+	 						 <input type="radio" name="radioItem" value="visual design" id="inputRadio2" style="width: 0; height: 0;" required> 
 	 						 <label for="inputRadio2" style="display: inline-block;width: 85%;padding: 20px;">Visual Design</label> 
 	 					</hgroup>
 	 					<hgroup id ="inputRadioItems" style="padding:  0;">
-	 						 <input type="radio" name="radioItem" value="ux design" id="inputRadio3" style="width: 0; height: 0;"> 
+	 						 <input type="radio" name="radioItem" value="ux design" id="inputRadio3" style="width: 0; height: 0;" required> 
 	 						  <label for="inputRadio3" style="display: inline-block;width: 85%;padding: 20px;">UX Design</label>
 	 					</hgroup>
 	 					<hgroup id ="inputRadioItems" style="padding:  0;">
-	 						 <input type="radio" name="radioItem" value="front end dev" id="inputRadio4" style="width: 0; height: 0;"> 
+	 						 <input type="radio" name="radioItem" value="front end dev" id="inputRadio4" style="width: 0; height: 0;" required> 
 	 						 <label for="inputRadio4" style="display: inline-block;width: 85%;padding: 20px;">Front-end Dev</label>
 	 					</hgroup>
 	 		  </article>
@@ -132,9 +132,9 @@
 					</br>
 					<p style="font-family: verdana;font-size: 19px;">Probe your 'IBM's next great designer by showing us who you are.What you've done.How you think.
 					Tell us your story.</p>
-						<input type ="text" name ="porfolio" placeholder="Portfolio link*" class="inputText" id ="portfolio" />
+						<input type ="text" name ="porfolio" placeholder="Portfolio link*" class="inputText" id ="portfolio" required minlength="6" maxlength="10"/>
 						</br></br>
-<textarea placeholder="Anything else (another link,availability, etc)?" name="inputTextArea" class="inputTextArea" id="inputTextArea"></textarea></br></br>
+<textarea placeholder="Anything else (another link,availability, etc)?" name="inputTextArea" class="inputTextArea" id="inputTextArea" required minlength="6" maxlength="10"></textarea></br></br>
 						<button id= "textareaButton">Submit</button>
 				</article>
 			</section>
